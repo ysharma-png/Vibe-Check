@@ -1,0 +1,1222 @@
+{
+  "generatedAt": "2026-10-13T18:03:54.954Z",
+  "totalAssets": 236,
+  "assets": [
+    {
+      "path": "/assets/brands/lumina_fashion.svg",
+      "category": "brand",
+      "seed": "lumina_fashion"
+    },
+    {
+      "path": "/assets/brands/aether_aero.svg",
+      "category": "brand",
+      "seed": "aether_aero"
+    },
+    {
+      "path": "/assets/brands/apex_interactive.svg",
+      "category": "brand",
+      "seed": "apex_interactive"
+    },
+    {
+      "path": "/assets/brands/saffron_botanicals.svg",
+      "category": "brand",
+      "seed": "saffron_botanicals"
+    },
+    {
+      "path": "/assets/brands/velocity_ev.svg",
+      "category": "brand",
+      "seed": "velocity_ev"
+    },
+    {
+      "path": "/assets/brands/pulse_energy.svg",
+      "category": "brand",
+      "seed": "pulse_energy"
+    },
+    {
+      "path": "/assets/brands/kinetix_sound.svg",
+      "category": "brand",
+      "seed": "kinetix_sound"
+    },
+    {
+      "path": "/assets/brands/arcadia_living.svg",
+      "category": "brand",
+      "seed": "arcadia_living"
+    },
+    {
+      "path": "/assets/brands/chronos_watches.svg",
+      "category": "brand",
+      "seed": "chronos_watches"
+    },
+    {
+      "path": "/assets/brands/neon_horizon.svg",
+      "category": "brand",
+      "seed": "neon_horizon"
+    },
+    {
+      "path": "/assets/brands/helios_solar.svg",
+      "category": "brand",
+      "seed": "helios_solar"
+    },
+    {
+      "path": "/assets/brands/mirai_robotics.svg",
+      "category": "brand",
+      "seed": "mirai_robotics"
+    },
+    {
+      "path": "/assets/brands/terra_verde.svg",
+      "category": "brand",
+      "seed": "terra_verde"
+    },
+    {
+      "path": "/assets/brands/verve_agency.svg",
+      "category": "brand",
+      "seed": "verve_agency"
+    },
+    {
+      "path": "/assets/brands/zephyr_outdoor.svg",
+      "category": "brand",
+      "seed": "zephyr_outdoor"
+    },
+    {
+      "path": "/assets/brands/prism_eyewear.svg",
+      "category": "brand",
+      "seed": "prism_eyewear"
+    },
+    {
+      "path": "/assets/brands/onyx_roasters.svg",
+      "category": "brand",
+      "seed": "onyx_roasters"
+    },
+    {
+      "path": "/assets/brands/strata_spatial.svg",
+      "category": "brand",
+      "seed": "strata_spatial"
+    },
+    {
+      "path": "/assets/brands/solstice_distillery.svg",
+      "category": "brand",
+      "seed": "solstice_distillery"
+    },
+    {
+      "path": "/assets/brands/neural_foundry.svg",
+      "category": "brand",
+      "seed": "neural_foundry"
+    },
+    {
+      "path": "/assets/brands/crestline_fin.svg",
+      "category": "brand",
+      "seed": "crestline_fin"
+    },
+    {
+      "path": "/assets/brands/biome_health.svg",
+      "category": "brand",
+      "seed": "biome_health"
+    },
+    {
+      "path": "/assets/brands/forma_surfaces.svg",
+      "category": "brand",
+      "seed": "forma_surfaces"
+    },
+    {
+      "path": "/assets/brands/echowave_media.svg",
+      "category": "brand",
+      "seed": "echowave_media"
+    },
+    {
+      "path": "/assets/brands/siren_swim.svg",
+      "category": "brand",
+      "seed": "siren_swim"
+    },
+    {
+      "path": "/assets/brands/kurogane_forge.svg",
+      "category": "brand",
+      "seed": "kurogane_forge"
+    },
+    {
+      "path": "/assets/brands/omnipet_care.svg",
+      "category": "brand",
+      "seed": "omnipet_care"
+    },
+    {
+      "path": "/assets/brands/vortex_gaming.svg",
+      "category": "brand",
+      "seed": "vortex_gaming"
+    },
+    {
+      "path": "/assets/brands/aura_mindfulness.svg",
+      "category": "brand",
+      "seed": "aura_mindfulness"
+    },
+    {
+      "path": "/assets/brands/equinox_mobility.svg",
+      "category": "brand",
+      "seed": "equinox_mobility"
+    },
+    {
+      "path": "/assets/brands/starlight_hotels.svg",
+      "category": "brand",
+      "seed": "starlight_hotels"
+    },
+    {
+      "path": "/assets/brands/bravura_ensemble.svg",
+      "category": "brand",
+      "seed": "bravura_ensemble"
+    },
+    {
+      "path": "/assets/brands/nova_power.svg",
+      "category": "brand",
+      "seed": "nova_power"
+    },
+    {
+      "path": "/assets/brands/mythic_lore.svg",
+      "category": "brand",
+      "seed": "mythic_lore"
+    },
+    {
+      "path": "/assets/brands/vanguard_tactical.svg",
+      "category": "brand",
+      "seed": "vanguard_tactical"
+    },
+    {
+      "path": "/assets/brands/nectar_wines.svg",
+      "category": "brand",
+      "seed": "nectar_wines"
+    },
+    {
+      "path": "/assets/brands/alloy_industrial.svg",
+      "category": "brand",
+      "seed": "alloy_industrial"
+    },
+    {
+      "path": "/assets/brands/silk_stone.svg",
+      "category": "brand",
+      "seed": "silk_stone"
+    },
+    {
+      "path": "/assets/brands/hyperion_sat.svg",
+      "category": "brand",
+      "seed": "hyperion_sat"
+    },
+    {
+      "path": "/assets/brands/zest_tonics.svg",
+      "category": "brand",
+      "seed": "zest_tonics"
+    },
+    {
+      "path": "/assets/avatars/ren_nakamura.svg",
+      "category": "avatar",
+      "seed": "ren_nakamura"
+    },
+    {
+      "path": "/assets/avatars/mia_becker.svg",
+      "category": "avatar",
+      "seed": "mia_becker"
+    },
+    {
+      "path": "/assets/avatars/arthur_sterling.svg",
+      "category": "avatar",
+      "seed": "arthur_sterling"
+    },
+    {
+      "path": "/assets/avatars/julian_rivera.svg",
+      "category": "avatar",
+      "seed": "julian_rivera"
+    },
+    {
+      "path": "/assets/avatars/caleb_sinclair.svg",
+      "category": "avatar",
+      "seed": "caleb_sinclair"
+    },
+    {
+      "path": "/assets/avatars/etienne_tremblay.svg",
+      "category": "avatar",
+      "seed": "etienne_tremblay"
+    },
+    {
+      "path": "/assets/avatars/minjun_kim.svg",
+      "category": "avatar",
+      "seed": "minjun_kim"
+    },
+    {
+      "path": "/assets/avatars/mateo_silva.svg",
+      "category": "avatar",
+      "seed": "mateo_silva"
+    },
+    {
+      "path": "/assets/avatars/gabriel_dupont.svg",
+      "category": "avatar",
+      "seed": "gabriel_dupont"
+    },
+    {
+      "path": "/assets/avatars/matias_munoz.svg",
+      "category": "avatar",
+      "seed": "matias_munoz"
+    },
+    {
+      "path": "/assets/avatars/daan_weber.svg",
+      "category": "avatar",
+      "seed": "daan_weber"
+    },
+    {
+      "path": "/assets/avatars/arjun_patel.svg",
+      "category": "avatar",
+      "seed": "arjun_patel"
+    },
+    {
+      "path": "/assets/avatars/gael_morales.svg",
+      "category": "avatar",
+      "seed": "gael_morales"
+    },
+    {
+      "path": "/assets/avatars/liam_van_zyl.svg",
+      "category": "avatar",
+      "seed": "liam_van_zyl"
+    },
+    {
+      "path": "/assets/avatars/facundo_roldan.svg",
+      "category": "avatar",
+      "seed": "facundo_roldan"
+    },
+    {
+      "path": "/assets/avatars/keanu_kalani.svg",
+      "category": "avatar",
+      "seed": "keanu_kalani"
+    },
+    {
+      "path": "/assets/avatars/amara_flow.svg",
+      "category": "avatar",
+      "seed": "amara_flow"
+    },
+    {
+      "path": "/assets/avatars/minjun_sync.svg",
+      "category": "avatar",
+      "seed": "minjun_sync"
+    },
+    {
+      "path": "/assets/avatars/kenji_render.svg",
+      "category": "avatar",
+      "seed": "kenji_render"
+    },
+    {
+      "path": "/assets/avatars/elena_vfx.svg",
+      "category": "avatar",
+      "seed": "elena_vfx"
+    },
+    {
+      "path": "/assets/avatars/marcus_audio.svg",
+      "category": "avatar",
+      "seed": "marcus_audio"
+    },
+    {
+      "path": "/assets/avatars/sarah_motion.svg",
+      "category": "avatar",
+      "seed": "sarah_motion"
+    },
+    {
+      "path": "/assets/avatars/oliver_macdonald.svg",
+      "category": "avatar",
+      "seed": "oliver_macdonald"
+    },
+    {
+      "path": "/assets/avatars/aria_reed.svg",
+      "category": "avatar",
+      "seed": "aria_reed"
+    },
+    {
+      "path": "/assets/avatars/wyatt_carver.svg",
+      "category": "avatar",
+      "seed": "wyatt_carver"
+    },
+    {
+      "path": "/assets/avatars/nomie_roy.svg",
+      "category": "avatar",
+      "seed": "nomie_roy"
+    },
+    {
+      "path": "/assets/avatars/minjun_choi.svg",
+      "category": "avatar",
+      "seed": "minjun_choi"
+    },
+    {
+      "path": "/assets/avatars/valentina_rodrigues.svg",
+      "category": "avatar",
+      "seed": "valentina_rodrigues"
+    },
+    {
+      "path": "/assets/avatars/raphal_michel.svg",
+      "category": "avatar",
+      "seed": "raphal_michel"
+    },
+    {
+      "path": "/assets/avatars/agustn_muoz.svg",
+      "category": "avatar",
+      "seed": "agustn_muoz"
+    },
+    {
+      "path": "/assets/avatars/lars_janssen.svg",
+      "category": "avatar",
+      "seed": "lars_janssen"
+    },
+    {
+      "path": "/assets/avatars/ruby_dunne.svg",
+      "category": "avatar",
+      "seed": "ruby_dunne"
+    },
+    {
+      "path": "/assets/avatars/khai_teo.svg",
+      "category": "avatar",
+      "seed": "khai_teo"
+    },
+    {
+      "path": "/assets/avatars/nour_alhashimi.svg",
+      "category": "avatar",
+      "seed": "nour_alhashimi"
+    },
+    {
+      "path": "/assets/avatars/kofi_ochieng.svg",
+      "category": "avatar",
+      "seed": "kofi_ochieng"
+    },
+    {
+      "path": "/assets/avatars/somchai_chaiyaporn.svg",
+      "category": "avatar",
+      "seed": "somchai_chaiyaporn"
+    },
+    {
+      "path": "/assets/avatars/yuting_kuo.svg",
+      "category": "avatar",
+      "seed": "yuting_kuo"
+    },
+    {
+      "path": "/assets/avatars/talia_tekawa.svg",
+      "category": "avatar",
+      "seed": "talia_tekawa"
+    },
+    {
+      "path": "/assets/avatars/amara_balogun.svg",
+      "category": "avatar",
+      "seed": "amara_balogun"
+    },
+    {
+      "path": "/assets/avatars/ananya_chowdhury.svg",
+      "category": "avatar",
+      "seed": "ananya_chowdhury"
+    },
+    {
+      "path": "/assets/avatars/emiliano_salazar.svg",
+      "category": "avatar",
+      "seed": "emiliano_salazar"
+    },
+    {
+      "path": "/assets/avatars/kayla_pillay.svg",
+      "category": "avatar",
+      "seed": "kayla_pillay"
+    },
+    {
+      "path": "/assets/avatars/bautista_roldn.svg",
+      "category": "avatar",
+      "seed": "bautista_roldn"
+    },
+    {
+      "path": "/assets/avatars/mahina_akana.svg",
+      "category": "avatar",
+      "seed": "mahina_akana"
+    },
+    {
+      "path": "/assets/avatars/ren_saito.svg",
+      "category": "avatar",
+      "seed": "ren_saito"
+    },
+    {
+      "path": "/assets/avatars/leon_becker.svg",
+      "category": "avatar",
+      "seed": "leon_becker"
+    },
+    {
+      "path": "/assets/avatars/isla_macdonald.svg",
+      "category": "avatar",
+      "seed": "isla_macdonald"
+    },
+    {
+      "path": "/assets/avatars/dashiell_kaufman.svg",
+      "category": "avatar",
+      "seed": "dashiell_kaufman"
+    },
+    {
+      "path": "/assets/avatars/wyatt_hawthorne.svg",
+      "category": "avatar",
+      "seed": "wyatt_hawthorne"
+    },
+    {
+      "path": "/assets/avatars/nomie_roy_30.svg",
+      "category": "avatar",
+      "seed": "nomie_roy_30"
+    },
+    {
+      "path": "/assets/avatars/minjun_choi_31.svg",
+      "category": "avatar",
+      "seed": "minjun_choi_31"
+    },
+    {
+      "path": "/assets/avatars/valentina_rodrigues_32.svg",
+      "category": "avatar",
+      "seed": "valentina_rodrigues_32"
+    },
+    {
+      "path": "/assets/avatars/raphal_michel_33.svg",
+      "category": "avatar",
+      "seed": "raphal_michel_33"
+    },
+    {
+      "path": "/assets/avatars/florencia_muoz.svg",
+      "category": "avatar",
+      "seed": "florencia_muoz"
+    },
+    {
+      "path": "/assets/avatars/lars_bakker.svg",
+      "category": "avatar",
+      "seed": "lars_bakker"
+    },
+    {
+      "path": "/assets/avatars/ruby_thornton.svg",
+      "category": "avatar",
+      "seed": "ruby_thornton"
+    },
+    {
+      "path": "/assets/avatars/khai_teo_37.svg",
+      "category": "avatar",
+      "seed": "khai_teo_37"
+    },
+    {
+      "path": "/assets/avatars/nour_almansoor.svg",
+      "category": "avatar",
+      "seed": "nour_almansoor"
+    },
+    {
+      "path": "/assets/avatars/kofi_kiprono.svg",
+      "category": "avatar",
+      "seed": "kofi_kiprono"
+    },
+    {
+      "path": "/assets/avatars/thanakorn_rattana.svg",
+      "category": "avatar",
+      "seed": "thanakorn_rattana"
+    },
+    {
+      "path": "/assets/avatars/boyu_chen.svg",
+      "category": "avatar",
+      "seed": "boyu_chen"
+    },
+    {
+      "path": "/assets/avatars/talia_ellis.svg",
+      "category": "avatar",
+      "seed": "talia_ellis"
+    },
+    {
+      "path": "/assets/avatars/amara_balogun_43.svg",
+      "category": "avatar",
+      "seed": "amara_balogun_43"
+    },
+    {
+      "path": "/assets/avatars/ananya_chowdhury_44.svg",
+      "category": "avatar",
+      "seed": "ananya_chowdhury_44"
+    },
+    {
+      "path": "/assets/avatars/emiliano_reyes.svg",
+      "category": "avatar",
+      "seed": "emiliano_reyes"
+    },
+    {
+      "path": "/assets/avatars/kayla_naidoo.svg",
+      "category": "avatar",
+      "seed": "kayla_naidoo"
+    },
+    {
+      "path": "/assets/avatars/delfina_bentez.svg",
+      "category": "avatar",
+      "seed": "delfina_bentez"
+    },
+    {
+      "path": "/assets/avatars/mahina_kalani.svg",
+      "category": "avatar",
+      "seed": "mahina_kalani"
+    },
+    {
+      "path": "/assets/avatars/ren_ito.svg",
+      "category": "avatar",
+      "seed": "ren_ito"
+    },
+    {
+      "path": "/assets/avatars/lukas_becker.svg",
+      "category": "avatar",
+      "seed": "lukas_becker"
+    },
+    {
+      "path": "/assets/avatars/florence_macdonald.svg",
+      "category": "avatar",
+      "seed": "florence_macdonald"
+    },
+    {
+      "path": "/assets/avatars/marcus_lin.svg",
+      "category": "avatar",
+      "seed": "marcus_lin"
+    },
+    {
+      "path": "/assets/avatars/wyatt_sinclair.svg",
+      "category": "avatar",
+      "seed": "wyatt_sinclair"
+    },
+    {
+      "path": "/assets/avatars/nomie_roy_54.svg",
+      "category": "avatar",
+      "seed": "nomie_roy_54"
+    },
+    {
+      "path": "/assets/avatars/minjun_choi_55.svg",
+      "category": "avatar",
+      "seed": "minjun_choi_55"
+    },
+    {
+      "path": "/assets/avatars/valentina_rodrigues_56.svg",
+      "category": "avatar",
+      "seed": "valentina_rodrigues_56"
+    },
+    {
+      "path": "/assets/avatars/raphal_michel_57.svg",
+      "category": "avatar",
+      "seed": "raphal_michel_57"
+    },
+    {
+      "path": "/assets/avatars/benjamn_muoz.svg",
+      "category": "avatar",
+      "seed": "benjamn_muoz"
+    },
+    {
+      "path": "/assets/avatars/lars_vandijk.svg",
+      "category": "avatar",
+      "seed": "lars_vandijk"
+    },
+    {
+      "path": "/assets/avatars/ruby_mitchell.svg",
+      "category": "avatar",
+      "seed": "ruby_mitchell"
+    },
+    {
+      "path": "/assets/avatars/khai_teo_61.svg",
+      "category": "avatar",
+      "seed": "khai_teo_61"
+    },
+    {
+      "path": "/assets/avatars/nour_mirza.svg",
+      "category": "avatar",
+      "seed": "nour_mirza"
+    },
+    {
+      "path": "/assets/avatars/kofi_mwangi.svg",
+      "category": "avatar",
+      "seed": "kofi_mwangi"
+    },
+    {
+      "path": "/assets/avatars/malee_prasert.svg",
+      "category": "avatar",
+      "seed": "malee_prasert"
+    },
+    {
+      "path": "/assets/avatars/guanyu_huang.svg",
+      "category": "avatar",
+      "seed": "guanyu_huang"
+    },
+    {
+      "path": "/assets/avatars/talia_tawhai.svg",
+      "category": "avatar",
+      "seed": "talia_tawhai"
+    },
+    {
+      "path": "/assets/avatars/amara_balogun_67.svg",
+      "category": "avatar",
+      "seed": "amara_balogun_67"
+    },
+    {
+      "path": "/assets/avatars/ananya_chowdhury_68.svg",
+      "category": "avatar",
+      "seed": "ananya_chowdhury_68"
+    },
+    {
+      "path": "/assets/avatars/emiliano_guerrero.svg",
+      "category": "avatar",
+      "seed": "emiliano_guerrero"
+    },
+    {
+      "path": "/assets/avatars/kayla_ndlovu.svg",
+      "category": "avatar",
+      "seed": "kayla_ndlovu"
+    },
+    {
+      "path": "/assets/avatars/facundo_ledesma.svg",
+      "category": "avatar",
+      "seed": "facundo_ledesma"
+    },
+    {
+      "path": "/assets/avatars/mahina_palakiko.svg",
+      "category": "avatar",
+      "seed": "mahina_palakiko"
+    },
+    {
+      "path": "/assets/avatars/ren_yamamoto.svg",
+      "category": "avatar",
+      "seed": "ren_yamamoto"
+    },
+    {
+      "path": "/assets/avatars/hannah_becker.svg",
+      "category": "avatar",
+      "seed": "hannah_becker"
+    },
+    {
+      "path": "/assets/avatars/george_macdonald.svg",
+      "category": "avatar",
+      "seed": "george_macdonald"
+    },
+    {
+      "path": "/assets/avatars/chloe_chen.svg",
+      "category": "avatar",
+      "seed": "chloe_chen"
+    },
+    {
+      "path": "/assets/avatars/wyatt_bennett.svg",
+      "category": "avatar",
+      "seed": "wyatt_bennett"
+    },
+    {
+      "path": "/assets/avatars/nomie_roy_78.svg",
+      "category": "avatar",
+      "seed": "nomie_roy_78"
+    },
+    {
+      "path": "/assets/avatars/minjun_choi_79.svg",
+      "category": "avatar",
+      "seed": "minjun_choi_79"
+    },
+    {
+      "path": "/assets/avatars/valentina_rodrigues_80.svg",
+      "category": "avatar",
+      "seed": "valentina_rodrigues_80"
+    },
+    {
+      "path": "/assets/avatars/raphal_michel_81.svg",
+      "category": "avatar",
+      "seed": "raphal_michel_81"
+    },
+    {
+      "path": "/assets/avatars/isidora_muoz.svg",
+      "category": "avatar",
+      "seed": "isidora_muoz"
+    },
+    {
+      "path": "/assets/avatars/lars_dejong.svg",
+      "category": "avatar",
+      "seed": "lars_dejong"
+    },
+    {
+      "path": "/assets/avatars/ruby_oconnor.svg",
+      "category": "avatar",
+      "seed": "ruby_oconnor"
+    },
+    {
+      "path": "/assets/avatars/khai_teo_85.svg",
+      "category": "avatar",
+      "seed": "khai_teo_85"
+    },
+    {
+      "path": "/assets/avatars/nour_siddiqui.svg",
+      "category": "avatar",
+      "seed": "nour_siddiqui"
+    },
+    {
+      "path": "/assets/avatars/kofi_wanjiku.svg",
+      "category": "avatar",
+      "seed": "kofi_wanjiku"
+    },
+    {
+      "path": "/assets/avatars/kittisak_saelim.svg",
+      "category": "avatar",
+      "seed": "kittisak_saelim"
+    },
+    {
+      "path": "/assets/avatars/yishan_hsu.svg",
+      "category": "avatar",
+      "seed": "yishan_hsu"
+    },
+    {
+      "path": "/assets/avatars/talia_mackenzie.svg",
+      "category": "avatar",
+      "seed": "talia_mackenzie"
+    },
+    {
+      "path": "/assets/avatars/amara_balogun_91.svg",
+      "category": "avatar",
+      "seed": "amara_balogun_91"
+    },
+    {
+      "path": "/assets/avatars/ananya_chowdhury_92.svg",
+      "category": "avatar",
+      "seed": "ananya_chowdhury_92"
+    },
+    {
+      "path": "/assets/avatars/emiliano_morales.svg",
+      "category": "avatar",
+      "seed": "emiliano_morales"
+    },
+    {
+      "path": "/assets/avatars/kayla_botha.svg",
+      "category": "avatar",
+      "seed": "kayla_botha"
+    },
+    {
+      "path": "/assets/avatars/joaqun_cabral.svg",
+      "category": "avatar",
+      "seed": "joaqun_cabral"
+    },
+    {
+      "path": "/assets/avatars/mahina_kamaka.svg",
+      "category": "avatar",
+      "seed": "mahina_kamaka"
+    },
+    {
+      "path": "/assets/avatars/ren_watanabe.svg",
+      "category": "avatar",
+      "seed": "ren_watanabe"
+    },
+    {
+      "path": "/assets/avatars/jonas_becker.svg",
+      "category": "avatar",
+      "seed": "jonas_becker"
+    },
+    {
+      "path": "/assets/avatars/arthur_macdonald.svg",
+      "category": "avatar",
+      "seed": "arthur_macdonald"
+    },
+    {
+      "path": "/assets/avatars/sienna_mercer.svg",
+      "category": "avatar",
+      "seed": "sienna_mercer"
+    },
+    {
+      "path": "/assets/avatars/wyatt_west.svg",
+      "category": "avatar",
+      "seed": "wyatt_west"
+    },
+    {
+      "path": "/assets/avatars/nomie_roy_102.svg",
+      "category": "avatar",
+      "seed": "nomie_roy_102"
+    },
+    {
+      "path": "/assets/avatars/minjun_choi_103.svg",
+      "category": "avatar",
+      "seed": "minjun_choi_103"
+    },
+    {
+      "path": "/assets/avatars/valentina_rodrigues_104.svg",
+      "category": "avatar",
+      "seed": "valentina_rodrigues_104"
+    },
+    {
+      "path": "/assets/avatars/raphal_michel_105.svg",
+      "category": "avatar",
+      "seed": "raphal_michel_105"
+    },
+    {
+      "path": "/assets/avatars/matas_muoz.svg",
+      "category": "avatar",
+      "seed": "matas_muoz"
+    },
+    {
+      "path": "/assets/avatars/lars_visser.svg",
+      "category": "avatar",
+      "seed": "lars_visser"
+    },
+    {
+      "path": "/assets/avatars/ruby_callaghan.svg",
+      "category": "avatar",
+      "seed": "ruby_callaghan"
+    },
+    {
+      "path": "/assets/avatars/khai_teo_109.svg",
+      "category": "avatar",
+      "seed": "khai_teo_109"
+    },
+    {
+      "path": "/assets/avatars/nour_qasim.svg",
+      "category": "avatar",
+      "seed": "nour_qasim"
+    },
+    {
+      "path": "/assets/avatars/kofi_kariuki.svg",
+      "category": "avatar",
+      "seed": "kofi_kariuki"
+    },
+    {
+      "path": "/assets/avatars/apinya_suksom.svg",
+      "category": "avatar",
+      "seed": "apinya_suksom"
+    },
+    {
+      "path": "/assets/avatars/chenghan_chang.svg",
+      "category": "avatar",
+      "seed": "chenghan_chang"
+    },
+    {
+      "path": "/assets/avatars/talia_henare.svg",
+      "category": "avatar",
+      "seed": "talia_henare"
+    },
+    {
+      "path": "/assets/avatars/amara_balogun_115.svg",
+      "category": "avatar",
+      "seed": "amara_balogun_115"
+    },
+    {
+      "path": "/assets/avatars/ananya_chowdhury_116.svg",
+      "category": "avatar",
+      "seed": "ananya_chowdhury_116"
+    },
+    {
+      "path": "/assets/avatars/emiliano_mendoza.svg",
+      "category": "avatar",
+      "seed": "emiliano_mendoza"
+    },
+    {
+      "path": "/assets/avatars/kayla_vanzyl.svg",
+      "category": "avatar",
+      "seed": "kayla_vanzyl"
+    },
+    {
+      "path": "/assets/avatars/catalina_ferreyra.svg",
+      "category": "avatar",
+      "seed": "catalina_ferreyra"
+    },
+    {
+      "path": "/assets/avatars/mahina_kealoha.svg",
+      "category": "avatar",
+      "seed": "mahina_kealoha"
+    },
+    {
+      "path": "/assets/avatars/ren_kobayashi.svg",
+      "category": "avatar",
+      "seed": "ren_kobayashi"
+    },
+    {
+      "path": "/assets/avatars/finn_becker.svg",
+      "category": "avatar",
+      "seed": "finn_becker"
+    },
+    {
+      "path": "/assets/avatars/amelia_macdonald.svg",
+      "category": "avatar",
+      "seed": "amelia_macdonald"
+    },
+    {
+      "path": "/assets/avatars/miles_rivera.svg",
+      "category": "avatar",
+      "seed": "miles_rivera"
+    },
+    {
+      "path": "/assets/avatars/wyatt_carver_125.svg",
+      "category": "avatar",
+      "seed": "wyatt_carver_125"
+    },
+    {
+      "path": "/assets/avatars/nomie_roy_126.svg",
+      "category": "avatar",
+      "seed": "nomie_roy_126"
+    },
+    {
+      "path": "/assets/avatars/minjun_choi_127.svg",
+      "category": "avatar",
+      "seed": "minjun_choi_127"
+    },
+    {
+      "path": "/assets/avatars/valentina_rodrigues_128.svg",
+      "category": "avatar",
+      "seed": "valentina_rodrigues_128"
+    },
+    {
+      "path": "/assets/avatars/raphal_michel_129.svg",
+      "category": "avatar",
+      "seed": "raphal_michel_129"
+    },
+    {
+      "path": "/assets/avatars/agustn_muoz_130.svg",
+      "category": "avatar",
+      "seed": "agustn_muoz_130"
+    },
+    {
+      "path": "/assets/avatars/lars_janssen_131.svg",
+      "category": "avatar",
+      "seed": "lars_janssen_131"
+    },
+    {
+      "path": "/assets/avatars/ruby_dunne_132.svg",
+      "category": "avatar",
+      "seed": "ruby_dunne_132"
+    },
+    {
+      "path": "/assets/avatars/khai_teo_133.svg",
+      "category": "avatar",
+      "seed": "khai_teo_133"
+    },
+    {
+      "path": "/assets/avatars/nour_alhashimi_134.svg",
+      "category": "avatar",
+      "seed": "nour_alhashimi_134"
+    },
+    {
+      "path": "/assets/avatars/kofi_ochieng_135.svg",
+      "category": "avatar",
+      "seed": "kofi_ochieng_135"
+    },
+    {
+      "path": "/assets/avatars/somchai_chaiyaporn_136.svg",
+      "category": "avatar",
+      "seed": "somchai_chaiyaporn_136"
+    },
+    {
+      "path": "/assets/avatars/yuting_kuo_137.svg",
+      "category": "avatar",
+      "seed": "yuting_kuo_137"
+    },
+    {
+      "path": "/assets/avatars/talia_tekawa_138.svg",
+      "category": "avatar",
+      "seed": "talia_tekawa_138"
+    },
+    {
+      "path": "/assets/avatars/amara_balogun_139.svg",
+      "category": "avatar",
+      "seed": "amara_balogun_139"
+    },
+    {
+      "path": "/assets/avatars/ananya_chowdhury_140.svg",
+      "category": "avatar",
+      "seed": "ananya_chowdhury_140"
+    },
+    {
+      "path": "/assets/covers/cover-ai-film-short-film.svg",
+      "category": "cover",
+      "aspectRatio": "21:9",
+      "seed": "ai-film-short-film"
+    },
+    {
+      "path": "/assets/covers/cover-ai-animation-2d-3d-anime.svg",
+      "category": "cover",
+      "aspectRatio": "21:9",
+      "seed": "ai-animation-2d-3d-anime"
+    },
+    {
+      "path": "/assets/covers/cover-product-ads.svg",
+      "category": "cover",
+      "aspectRatio": "21:9",
+      "seed": "product-ads"
+    },
+    {
+      "path": "/assets/covers/cover-music-videos.svg",
+      "category": "cover",
+      "aspectRatio": "21:9",
+      "seed": "music-videos"
+    },
+    {
+      "path": "/assets/covers/cover-fashion-lookbook.svg",
+      "category": "cover",
+      "aspectRatio": "21:9",
+      "seed": "fashion-lookbook"
+    },
+    {
+      "path": "/assets/covers/cover-social-shorts.svg",
+      "category": "cover",
+      "aspectRatio": "21:9",
+      "seed": "social-shorts"
+    },
+    {
+      "path": "/assets/covers/cover-explainer-educational.svg",
+      "category": "cover",
+      "aspectRatio": "21:9",
+      "seed": "explainer-educational"
+    },
+    {
+      "path": "/assets/covers/cover-game-assets-concept-art.svg",
+      "category": "cover",
+      "aspectRatio": "21:9",
+      "seed": "game-assets-concept-art"
+    },
+    {
+      "path": "/assets/covers/cover-architecture-real-estate-visualization.svg",
+      "category": "cover",
+      "aspectRatio": "21:9",
+      "seed": "architecture-real-estate-visualization"
+    },
+    {
+      "path": "/assets/covers/cover-brand-mascots-characters.svg",
+      "category": "cover",
+      "aspectRatio": "21:9",
+      "seed": "brand-mascots-characters"
+    },
+    {
+      "path": "/assets/covers/cover-podcast-audio-and-voice.svg",
+      "category": "cover",
+      "aspectRatio": "21:9",
+      "seed": "podcast-audio-and-voice"
+    },
+    {
+      "path": "/assets/covers/cover-vfx-upscaling-restoration.svg",
+      "category": "cover",
+      "aspectRatio": "21:9",
+      "seed": "vfx-upscaling-restoration"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-001.svg",
+      "category": "thumbnail",
+      "aspectRatio": "4:5",
+      "seed": "thumb-001"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-002.svg",
+      "category": "thumbnail",
+      "aspectRatio": "21:9",
+      "seed": "thumb-002"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-003.svg",
+      "category": "thumbnail",
+      "aspectRatio": "16:9",
+      "seed": "thumb-003"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-004.svg",
+      "category": "thumbnail",
+      "aspectRatio": "9:16",
+      "seed": "thumb-004"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-005.svg",
+      "category": "thumbnail",
+      "aspectRatio": "1:1",
+      "seed": "thumb-005"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-006.svg",
+      "category": "thumbnail",
+      "aspectRatio": "4:5",
+      "seed": "thumb-006"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-007.svg",
+      "category": "thumbnail",
+      "aspectRatio": "21:9",
+      "seed": "thumb-007"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-008.svg",
+      "category": "thumbnail",
+      "aspectRatio": "16:9",
+      "seed": "thumb-008"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-009.svg",
+      "category": "thumbnail",
+      "aspectRatio": "9:16",
+      "seed": "thumb-009"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-010.svg",
+      "category": "thumbnail",
+      "aspectRatio": "4:5",
+      "seed": "thumb-010"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-011.svg",
+      "category": "thumbnail",
+      "aspectRatio": "21:9",
+      "seed": "thumb-011"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-012.svg",
+      "category": "thumbnail",
+      "aspectRatio": "16:9",
+      "seed": "thumb-012"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-013.svg",
+      "category": "thumbnail",
+      "aspectRatio": "9:16",
+      "seed": "thumb-013"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-014.svg",
+      "category": "thumbnail",
+      "aspectRatio": "1:1",
+      "seed": "thumb-014"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-015.svg",
+      "category": "thumbnail",
+      "aspectRatio": "4:5",
+      "seed": "thumb-015"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-016.svg",
+      "category": "thumbnail",
+      "aspectRatio": "21:9",
+      "seed": "thumb-016"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-017.svg",
+      "category": "thumbnail",
+      "aspectRatio": "16:9",
+      "seed": "thumb-017"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-018.svg",
+      "category": "thumbnail",
+      "aspectRatio": "9:16",
+      "seed": "thumb-018"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-019.svg",
+      "category": "thumbnail",
+      "aspectRatio": "1:1",
+      "seed": "thumb-019"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-020.svg",
+      "category": "thumbnail",
+      "aspectRatio": "21:9",
+      "seed": "thumb-020"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-021.svg",
+      "category": "thumbnail",
+      "aspectRatio": "16:9",
+      "seed": "thumb-021"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-022.svg",
+      "category": "thumbnail",
+      "aspectRatio": "9:16",
+      "seed": "thumb-022"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-023.svg",
+      "category": "thumbnail",
+      "aspectRatio": "1:1",
+      "seed": "thumb-023"
+    },
+    {
+      "path": "/assets/thumbnails/thumb-024.svg",
+      "category": "thumbnail",
+      "aspectRatio": "4:5",
+      "seed": "thumb-024"
+    }
+  ]
+}

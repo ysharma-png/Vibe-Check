@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800" width="640" height="800">
+  <defs>
+    <linearGradient id="bg-1328547293" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="50%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#020408"/>
+    </linearGradient>
+    <linearGradient id="art-1328547293" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#14B8A6"/>
+      <stop offset="100%" stop-color="#14B8A6"/>
+    </linearGradient>
+    <filter id="glow-1328547293" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="40" result="blur"/>
+    </filter>
+  </defs>
+
+  <rect width="640" height="800" fill="url(#bg-1328547293)"/>
+
+  <!-- Radial generative light glow -->
+  <circle cx="288" cy="360" r="224" fill="#14B8A6" opacity="0.3" filter="url(#glow-1328547293)"/>
+  <circle cx="416" cy="480" r="192" fill="#14B8A6" opacity="0.25" filter="url(#glow-1328547293)"/>
+
+  <!-- Sculptural dynamic geometry -->
+  <path d="M128,560 Q320,160 512,480" fill="none" stroke="url(#art-1328547293)" stroke-width="8" opacity="0.8"/>
+  <circle cx="320" cy="360" r="102.4" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="8 6" opacity="0.6"/>
+
+  <!-- Technical badges & aspect ratio stamp -->
+  <rect x="24" y="748" width="70" height="28" rx="8" fill="#000000" opacity="0.6"/>
+  <text x="59" y="767" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#FFFFFF" text-anchor="middle">4:5</text>
+
+  <rect x="104" y="748" width="65" height="28" rx="8" fill="#14B8A6" opacity="0.2"/>
+  <text x="136" y="767" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#14B8A6" text-anchor="middle">MASTER</text>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="brand-grad-2134518274" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#78350F"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="24" fill="url(#brand-grad-2134518274)"/>
+  <g><rect x="22" y="22" width="56" height="56" rx="14" fill="#FFFFFF" opacity="0.15"/>
+               <text x="50" y="58" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="900" text-anchor="middle" fill="#FFFFFF">OC</text></g>
+</svg>

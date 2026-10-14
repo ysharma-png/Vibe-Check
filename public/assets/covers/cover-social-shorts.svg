@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg-1493408215" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+    <linearGradient id="mesh-1493408215" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06B6D4" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#FB7185" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="glow-1493408215" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="60" result="blur"/>
+    </filter>
+  </defs>
+
+  <!-- Deep cinematic base -->
+  <rect width="1200" height="400" fill="url(#bg-1493408215)"/>
+
+  <!-- Organic Glowing Meshes -->
+  <circle cx="200" cy="150" r="220" fill="#06B6D4" opacity="0.35" filter="url(#glow-1493408215)"/>
+  <circle cx="950" cy="220" r="260" fill="#FB7185" opacity="0.3" filter="url(#glow-1493408215)"/>
+  <circle cx="600" cy="350" r="180" fill="#8B5CF6" opacity="0.25" filter="url(#glow-1493408215)"/>
+
+  <!-- Fluid Ribbon Curve Waves -->
+  <path d="M-50,260 C250,120 450,380 750,220 C1000,80 1150,320 1250,200" fill="none" stroke="url(#mesh-1493408215)" stroke-width="12" opacity="0.75"/>
+  <path d="M-50,280 C230,160 480,420 780,240 C1020,100 1120,340 1250,220" fill="none" stroke="#FB7185" stroke-width="4" opacity="0.5"/>
+  <path d="M-50,240 C270,100 420,340 720,180 C980,60 1180,280 1250,180" fill="none" stroke="#06B6D4" stroke-width="2" opacity="0.6"/>
+
+  <!-- Subtle Perspective Grid -->
+  <line x1="0" y1="360" x2="1200" y2="360" stroke="#FFFFFF" stroke-opacity="0.05"/>
+  <line x1="0" y1="320" x2="1200" y2="320" stroke="#FFFFFF" stroke-opacity="0.04"/>
+  <line x1="0" y1="280" x2="1200" y2="280" stroke="#FFFFFF" stroke-opacity="0.03"/>
+</svg>

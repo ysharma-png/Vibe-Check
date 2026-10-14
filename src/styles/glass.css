@@ -1,0 +1,551 @@
+/* ==========================================================================
+   CACHEFLOW MACOS LIQUID GLASS DESIGN SYSTEM
+   Surface tiers, specular tracking, optical refraction, macOS details
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. CSS Custom Properties & Base Variables
+   -------------------------------------------------------------------------- */
+:root {
+  --glass-tint-thin: rgba(18, 22, 26, 0.45);
+  --glass-tint-regular: rgba(18, 22, 26, 0.68);
+  --glass-tint-thick: rgba(14, 17, 21, 0.85);
+  --glass-tint-chrome: rgba(10, 12, 15, 0.75);
+
+  --glass-rim-highlight: rgba(255, 255, 255, 0.16);
+  --glass-rim-subtle: rgba(255, 255, 255, 0.06);
+  --glass-specular-glow: rgba(255, 255, 255, 0.12);
+
+  --glass-shadow-ambient: 0 16px 40px -10px rgba(0, 0, 0, 0.5);
+  --glass-shadow-contact: 0 2px 8px -1px rgba(0, 0, 0, 0.35);
+
+  /* Brand Accents */
+  --accent-lime: #D8FD38;
+  --accent-lime-subtle: rgba(216, 253, 56, 0.14);
+  --accent-coral: #FF6842;
+  --accent-ice: #38F2C7;
+  --bg-obsidian: #08090B;
+}
+
+.light {
+  --glass-tint-thin: rgba(255, 255, 255, 0.55);
+  --glass-tint-regular: rgba(255, 255, 255, 0.75);
+  --glass-tint-thick: rgba(255, 255, 255, 0.90);
+  --glass-tint-chrome: rgba(255, 255, 255, 0.82);
+
+  --glass-rim-highlight: rgba(255, 255, 255, 0.85);
+  --glass-rim-subtle: rgba(0, 0, 0, 0.08);
+  --glass-specular-glow: rgba(255, 255, 255, 0.4);
+
+  --glass-shadow-ambient: 0 16px 40px -10px rgba(0, 0, 0, 0.08);
+  --glass-shadow-contact: 0 2px 8px -1px rgba(0, 0, 0, 0.04);
+}
+
+/* --------------------------------------------------------------------------
+   2. Glass Surface Tiers
+   -------------------------------------------------------------------------- */
+
+/* Common Glass Foundation */
+.glass-surface {
+  position: relative;
+  isolation: isolate;
+  background-clip: padding-box;
+  transition: border-color 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              box-shadow 0.25s cubic-bezier(0.16, 1, 0.3, 1),
+              transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* TIER 1: Thin Glass (Badges, Tooltips, Micro-Chips) */
+.glass-thin {
+  background: var(--glass-tint-thin);
+  backdrop-filter: blur(12px) saturate(140%) brightness(105%);
+  -webkit-backdrop-filter: blur(12px) saturate(140%) brightness(105%);
+  border: 1px solid var(--glass-rim-subtle);
+  box-shadow: 
+    inset 0 1px 0 0 var(--glass-rim-highlight),
+    0 4px 16px -2px rgba(0, 0, 0, 0.25);
+}
+
+/* TIER 2: Regular Glass (Cards, Lists, Dialog Body) */
+.glass-regular {
+  background: var(--glass-tint-regular);
+  backdrop-filter: blur(24px) saturate(160%) brightness(102%);
+  -webkit-backdrop-filter: blur(24px) saturate(160%) brightness(102%);
+  border: 1px solid var(--glass-rim-subtle);
+  box-shadow:
+    inset 0 1px 1px 0 var(--glass-rim-highlight),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.04),
+    var(--glass-shadow-ambient),
+    var(--glass-shadow-contact);
+}
+
+/* TIER 3: Thick Glass (Slide Decks, Sheets, Modals) */
+.glass-thick {
+  background: var(--glass-tint-thick);
+  backdrop-filter: blur(40px) saturate(180%) brightness(100%);
+  -webkit-backdrop-filter: blur(40px) saturate(180%) brightness(100%);
+  border: 1px solid var(--glass-rim-subtle);
+  box-shadow:
+    inset 0 1.5px 1px 0 var(--glass-rim-highlight),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.06),
+    0 24px 60px -12px rgba(0, 0, 0, 0.65),
+    0 4px 16px -4px rgba(0, 0, 0, 0.4);
+}
+
+/* TIER 4: Chrome Glass (Navbar, Command Palette, Floating Dock) */
+.glass-chrome {
+  background: var(--glass-tint-chrome);
+  backdrop-filter: blur(32px) saturate(175%) brightness(103%);
+  -webkit-backdrop-filter: blur(32px) saturate(175%) brightness(103%);
+  border: 1px solid var(--glass-rim-subtle);
+  box-shadow:
+    inset 0 1px 0 0 var(--glass-rim-highlight),
+    0 8px 32px 0 rgba(0, 0, 0, 0.45);
+}
+
+/* --------------------------------------------------------------------------
+   3. Interactive Specular Light & Sheen
+   -------------------------------------------------------------------------- */
+.glass-specular {
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-specular::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  border-radius: inherit;
+  background: radial-gradient(
+    380px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    var(--glass-specular-glow),
+    transparent 55%
+  );
+  opacity: 0;
+  transition: opacity 0.35s ease;
+  z-index: 2;
+}
+
+.glass-specular:hover::before {
+  opacity: 1;
+}
+
+/* Subtle edge sheen flash on hover */
+.glass-sheen {
+  position: relative;
+  overflow: hidden;
+}
+
+.glass-sheen::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    115deg,
+    transparent 35%,
+    rgba(255, 255, 255, 0.08) 48%,
+    rgba(255, 255, 255, 0.18) 50%,
+    rgba(255, 255, 255, 0.08) 52%,
+    transparent 65%
+  );
+  transform: skewX(-20deg);
+  transition: none;
+  pointer-events: none;
+  z-index: 3;
+}
+
+.glass-sheen:hover::after {
+  left: 150%;
+  transition: left 0.85s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* --------------------------------------------------------------------------
+   4. Liquid Refraction (SVG Displacement Filter with fallback)
+   -------------------------------------------------------------------------- */
+.liquid-refraction {
+  backdrop-filter: blur(28px) saturate(170%);
+  -webkit-backdrop-filter: blur(28px) saturate(170%);
+}
+
+@supports (filter: url("#liquid-glass-filter")) {
+  .liquid-refraction-active {
+    filter: url("#liquid-glass-filter");
+  }
+}
+
+/* --------------------------------------------------------------------------
+   5. Variable Radii Hierarchy (10, 16, 24, 32)
+   -------------------------------------------------------------------------- */
+.radius-10 { border-radius: 10px; }
+.radius-16 { border-radius: 16px; }
+.radius-24 { border-radius: 24px; }
+.radius-32 { border-radius: 32px; }
+
+/* --------------------------------------------------------------------------
+   6. macOS System Details & Controls
+   -------------------------------------------------------------------------- */
+
+/* macOS Window Traffic Lights */
+.traffic-lights {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.traffic-light {
+  width: 11px;
+  height: 11px;
+  border-radius: 9999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.15s ease, filter 0.15s ease;
+  position: relative;
+}
+
+.traffic-light-close {
+  background: #FF5F56;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.traffic-light-minimize {
+  background: #FFBD2E;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.traffic-light-expand {
+  background: #27C93F;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.traffic-lights:hover .traffic-light {
+  filter: brightness(1.05);
+}
+
+/* Segmented Control with Glass Sliding Indicator */
+.segmented-control {
+  display: inline-flex;
+  padding: 3px;
+  border-radius: 14px;
+  background: rgba(18, 22, 26, 0.65);
+  border: 1px solid var(--glass-rim-subtle);
+  position: relative;
+  isolation: isolate;
+}
+
+.segmented-control-item {
+  position: relative;
+  z-index: 2;
+  padding: 6px 14px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: 11px;
+  transition: color 0.2s ease;
+  color: #96A0AB;
+}
+
+.segmented-control-item.active {
+  color: #F4F6F8;
+  background: rgba(255, 255, 255, 0.12);
+  box-shadow: 
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.2),
+    0 2px 6px -1px rgba(0, 0, 0, 0.35);
+}
+
+/* macOS Spring Toggle */
+.macos-toggle {
+  width: 44px;
+  height: 24px;
+  border-radius: 9999px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid var(--glass-rim-subtle);
+  padding: 2px;
+  cursor: pointer;
+  transition: background-color 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  display: inline-flex;
+  align-items: center;
+}
+
+.macos-toggle.active {
+  background: var(--accent-lime);
+}
+
+.macos-toggle-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 9999px;
+  background: #FFFFFF;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.macos-toggle.active .macos-toggle-thumb {
+  transform: translateX(20px);
+  background: #08090B;
+}
+
+/* macOS Magnifying Desktop Dock */
+.macos-dock {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 24px;
+  background: rgba(14, 18, 22, 0.75);
+  backdrop-filter: blur(28px) saturate(180%);
+  -webkit-backdrop-filter: blur(28px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  box-shadow:
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.22),
+    0 20px 50px -10px rgba(0, 0, 0, 0.6);
+  z-index: 40;
+}
+
+.macos-dock-item {
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: #96A0AB;
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1),
+              background 0.2s ease,
+              color 0.2s ease;
+  position: relative;
+}
+
+.macos-dock-item:hover {
+  transform: translateY(-8px) scale(1.15);
+  background: rgba(255, 255, 255, 0.15);
+  color: #FFFFFF;
+  box-shadow: 0 8px 20px -4px rgba(0, 0, 0, 0.5);
+}
+
+.macos-dock-item.active {
+  color: var(--accent-lime);
+  background: rgba(216, 253, 56, 0.12);
+  border-color: rgba(216, 253, 56, 0.3);
+}
+
+.macos-dock-item.active::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  width: 4px;
+  height: 4px;
+  border-radius: 9999px;
+  background: var(--accent-lime);
+}
+
+/* --------------------------------------------------------------------------
+   7. Background Atmosphere (Animated Mesh Behind Glass)
+   -------------------------------------------------------------------------- */
+.glass-canvas-bg {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: -1;
+  overflow: hidden;
+  background-color: var(--bg-obsidian);
+}
+
+.glass-aurora-1 {
+  position: absolute;
+  top: -15%;
+  left: 15%;
+  width: 700px;
+  height: 700px;
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(216, 253, 56, 0.07) 0%, rgba(216, 253, 56, 0) 70%);
+  filter: blur(80px);
+  animation: aurora-float-1 22s ease-in-out infinite alternate;
+}
+
+.glass-aurora-2 {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+  width: 800px;
+  height: 800px;
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(255, 104, 66, 0.06) 0%, rgba(255, 104, 66, 0) 70%);
+  filter: blur(100px);
+  animation: aurora-float-2 28s ease-in-out infinite alternate;
+}
+
+.glass-aurora-3 {
+  position: absolute;
+  bottom: -10%;
+  left: 25%;
+  width: 900px;
+  height: 900px;
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(56, 242, 199, 0.05) 0%, rgba(56, 242, 199, 0) 70%);
+  filter: blur(120px);
+  animation: aurora-float-3 32s ease-in-out infinite alternate;
+}
+
+/* Subtle Technical Grid Matrix */
+.glass-grid-matrix {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.015) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.015) 1px, transparent 1px);
+  background-size: 48px 48px;
+  mask-image: radial-gradient(ellipse at 50% 30%, black 40%, transparent 85%);
+  -webkit-mask-image: radial-gradient(ellipse at 50% 30%, black 40%, transparent 85%);
+}
+
+@keyframes aurora-float-1 {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(60px, 40px) scale(1.1); }
+  100% { transform: translate(-40px, 80px) scale(0.95); }
+}
+
+@keyframes aurora-float-2 {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(-80px, -50px) scale(1.15); }
+  100% { transform: translate(40px, -30px) scale(0.9); }
+}
+
+@keyframes aurora-float-3 {
+  0% { transform: translate(0, 0) scale(1); }
+  50% { transform: translate(50px, -60px) scale(1.08); }
+  100% { transform: translate(-70px, 40px) scale(0.92); }
+}
+
+/* --------------------------------------------------------------------------
+   8. 3D Tilt & Spatial Layers
+   -------------------------------------------------------------------------- */
+.card-tilt-stage {
+  perspective: 1200px;
+  transform-style: preserve-3d;
+}
+
+.card-tilt-inner {
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  transform-style: preserve-3d;
+  will-change: transform;
+}
+
+.card-parallax-thumbnail {
+  transform: translateZ(16px);
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.card-parallax-badge {
+  transform: translateZ(28px);
+  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* --------------------------------------------------------------------------
+   9. Human Touches & Ephemera
+   -------------------------------------------------------------------------- */
+
+/* Studio Tape Pin */
+.studio-tape {
+  position: absolute;
+  top: -8px;
+  left: 20px;
+  width: 48px;
+  height: 16px;
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(4px);
+  transform: rotate(-3deg);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  z-index: 10;
+  pointer-events: none;
+}
+
+/* Exhibition Index Stamp */
+.exhibition-stamp {
+  font-family: var(--font-jetbrains-mono), monospace;
+  font-size: 10px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #96A0AB;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Monograph Hairline Rule with Corner Coordinates */
+.monograph-rule {
+  position: relative;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.08);
+  margin: 1.5rem 0;
+}
+
+.monograph-rule::before {
+  content: "+";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-jetbrains-mono), monospace;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.monograph-rule::after {
+  content: "+";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--font-jetbrains-mono), monospace;
+  font-size: 10px;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+/* --------------------------------------------------------------------------
+   10. Performance & Accessibility Fallbacks
+   -------------------------------------------------------------------------- */
+@media (prefers-reduced-transparency: reduce) {
+  .glass-thin,
+  .glass-regular,
+  .glass-thick,
+  .glass-chrome {
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
+    background: #12161A !important;
+    border-color: rgba(255, 255, 255, 0.15) !important;
+  }
+
+  .light .glass-thin,
+  .light .glass-regular,
+  .light .glass-thick,
+  .light .glass-chrome {
+    background: #F4F6F8 !important;
+    border-color: rgba(0, 0, 0, 0.12) !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glass-aurora-1,
+  .glass-aurora-2,
+  .glass-aurora-3 {
+    animation: none !important;
+  }
+
+  .card-tilt-inner,
+  .card-parallax-thumbnail,
+  .card-parallax-badge {
+    transform: none !important;
+    transition: none !important;
+  }
+}

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <defs>
+    <linearGradient id="bg-936915717" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F43F5E"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+    <linearGradient id="skin-936915717" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFDFBA"/>
+      <stop offset="100%" stop-color="#F6B894"/>
+    </linearGradient>
+    <filter id="soft-shadow-936915717" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <!-- Studio backdrop -->
+  <rect width="100" height="100" rx="50" fill="url(#bg-936915717)" />
+
+  <!-- Torso & Designer Hoodie -->
+  <path d="M18 96 C24 68, 76 68, 82 96 Z" fill="#06B6D4" filter="url(#soft-shadow-936915717)"/>
+  <path d="M36 96 L42 74 C46 72, 54 72, 58 74 L64 96 Z" fill="#FFFFFF" opacity="0.25"/>
+
+  <!-- Neck -->
+  <rect x="44" y="60" width="12" height="14" rx="4" fill="url(#skin-936915717)"/>
+
+  <!-- Head Base -->
+  <ellipse cx="50" cy="46" rx="21" ry="24" fill="url(#skin-936915717)" filter="url(#soft-shadow-936915717)"/>
+
+  <!-- Modern Stylized Hair -->
+  <path d="M26 38 C28 18, 72 18, 74 38 C74 48, 70 54, 68 54 C66 34, 34 34, 32 54 C30 54, 26 48, 26 38 Z" fill="#292524"/>
+
+  <!-- Expressive Eyes -->
+  <circle cx="41" cy="46" r="3.5" fill="#0F172A"/>
+  <circle cx="59" cy="46" r="3.5" fill="#0F172A"/>
+  <circle cx="42" cy="45" r="1.2" fill="#FFFFFF"/>
+  <circle cx="60" cy="45" r="1.2" fill="#FFFFFF"/>
+
+  <!-- Eyebrows -->
+  <path d="M36 40 Q41 38 46 40" stroke="#1E293B" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+  <path d="M54 40 Q59 38 64 40" stroke="#1E293B" stroke-width="1.8" stroke-linecap="round" fill="none"/>
+
+  <!-- Smile -->
+  <path d="M43 43 Q50 48 57 43" fill="none" stroke="#7C2D12" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Modern Creator Accessory -->
+  <!-- Studio Monitoring Headphones -->
+         <path d="M24 46 C24 22, 76 22, 76 46" fill="none" stroke="#38BDF8" stroke-width="3.5" stroke-linecap="round"/>
+         <rect x="22" y="40" width="6" height="14" rx="3" fill="#0284C7"/>
+         <rect x="72" y="40" width="6" height="14" rx="3" fill="#0284C7"/>
+</svg>
